@@ -1,14 +1,14 @@
-The following programs implement some of the functions that linux has
-including "ls", "stat", and "tail". There is also a custom program called
-"search" as shown below:
+## The following programs implement some of the functions that linux has including "ls", "stat", and "tail". There is also a custom program called "search" as shown below:
 
-To compile the seperate programs, use the makefile provided or use the following commands:
+
+
+### To compile the seperate programs, use the makefile provided or use the following commands:
 	gcc -o myls myls-Jaylen.c
 	gcc -o mysearch mysearch-Jaylen.c
 	gcc -o mystat mystat-Jaylen.c
 	gcc -o mytail mytail-Jaylen.c
 
-Each program does the following:
+### Each program does the following:
     myls-Jaylen.c:
         Implements the "ls" function in linux, you can specify the
         the directory you want to look at as well as use the -l flag to
